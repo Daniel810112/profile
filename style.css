@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Trade+Winds&display=swap');
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: 'Trade Winds';
+  color: rgb(255 , 255 ,255);
+  letter-spacing: 2px;
+  font-size: 30px;
+  line-height: 1,5;
+}
+h1 {
+  color: white;
+  font-family: 'Trade Winds';
+  font-size: 30px;
+  line-height: 1.5;
+
+}
+h2 {
+  color: white;
+  font-family: 'Trade Winds';
+  color: white;
+  line-height: 1;
+}
+a:hover {
+color: #ff7315;
+text-decoration: underline;
+}
+.card {
+  background: black;
+  padding: 30px;
+  border: 15px solid white;
+  padding: 30px;
+  text-align: center;
+}
+.img-circle {
+  border-radius: 40%;
+}
+/*.container {
+  width: 400px;
+  margin: 0 auto;
+}*/
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
